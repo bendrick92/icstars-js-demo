@@ -1,0 +1,35 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #252526;
+  color: #f0f0f0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.cat-wrapper {
+  min-height: 20em;
+  min-height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper > button {
+  padding: 1em;
+  border: none;
+  border-radius: .5em;
+  margin-top: 2em;
+  background-color: #53A8F2;
+  cursor: pointer;
+}
